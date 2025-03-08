@@ -75,7 +75,7 @@ When we merge dev into main from GitHub we should also update local main branch 
 `git checkout main`
 `git pull origin main`
 
-Check definition of pull (dev). [[Git Cheat sheet]]
+Check definition of pull (dev1). [[Git Cheat sheet]]
 
 ### Resolving Merge Conflicts:
 
