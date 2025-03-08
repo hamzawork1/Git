@@ -81,10 +81,18 @@ Check definition of pull (dev). [[Git Cheat sheet]]
 
 an event that takes place when Git in usable to automatically resolve differences in code between two commits.
 we need to resolve manual but vs code allow us to resolve conflicts efficiently.
-**In Vs code option are available:**
-Accept  incoming change
-Accept current change
-Accept both change
-compare change
+**In Vs code above the line of conflict option are appeared :**
+- Accept  incoming change
+- Accept current change
+- Accept both change
+- compare change
 
+If you want to resolve manually then need to remove lines check below example:
 
+```
+
+```
+
+```
+
+```
