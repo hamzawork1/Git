@@ -60,12 +60,12 @@ Two ways
 1. 1st way
 2. 2nd way
 
-### 1st way: 
+### 1st way:  Command line
 
 `git diff main`
-`git merge main`
+`git merge main`                                  **run this command into dev branch**
 
-### 2nd way:
+### 2nd way: GUI
 
 **Pull request:** its lets you tell others about changes you've pushed to a branch in a repository on GitHub.
 
@@ -76,3 +76,15 @@ When we merge dev into main from GitHub we should also update local main branch 
 `git pull origin main`
 
 Check definition of pull (dev). [[Git Cheat sheet]]
+
+### Resolving Merge Conflicts:
+
+an event that takes place when Git in usable to automatically resolve differences in code between two commits.
+we need to resolve manual but vs code allow us to resolve conflicts efficiently.
+**In Vs code option are available:**
+Accept  incoming change
+Accept current change
+Accept both change
+compare change
+
+
