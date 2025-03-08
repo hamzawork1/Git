@@ -23,13 +23,13 @@
 
 #### **📄 Staging & Committing**
 
-|**Command**|**Description**|
-|---|---|
-|`git status`|Check the status of files in the working directory.|
-|`git add <file>`|Stage a specific file for commit.|
-|`git add .`|Stage all modified & new files.|
-|`git commit -m "Commit message"`|Commit staged files with a message.|
-|`git commit --amend -m "New message"`|Edit the last commit message.|
+| **Command**                           | **Description**                                                |
+| ------------------------------------- | -------------------------------------------------------------- |
+| `git status`                          | Check the status of files in the working directory.            |
+| `git add <file>`                      | Stage a specific file for commit.                              |
+| `git add .`                           | Stage all modified & new files.                                |
+| `git commit -m "Commit message"`      | Commit staged files with a message. "its the record of change" |
+| `git commit --amend -m "New message"` | Edit the last commit message.                                  |
 
 ---
 
