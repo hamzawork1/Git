@@ -64,6 +64,7 @@
 
 |**Command**|**Description**|
 |---|---|
+|`git diff <branch>`|compare commits,branhes,files & more. "before merge"|
 |`git merge <branch>`|Attempt to merge branches.|
 |`git status`|Check which files have conflicts.|
 |`git add <file>`|Mark a conflict as resolved.|

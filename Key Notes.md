@@ -53,3 +53,18 @@ readme1.md `A`
  GitHub-repo -> clone -> changes -> add -> commit -> push
 ### Best practice:
 **Always create a repo on GitHub first, then clone it locally.** This avoids conflicts and simplifies setup 
+
+# Merging code
+
+Two ways
+1. 1st way
+2. 2nd way
+
+### 1st way: 
+
+git diff main
+git merge main
+
+### 2nd way:
+
+**Pull request:** its lets you tell others about changes you've pushed to a branch in a repository on GitHub.
