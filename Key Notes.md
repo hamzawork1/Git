@@ -106,3 +106,26 @@ Check definition of pull (dev1). [[Git Cheat sheet]]
 Check definition of pull (dev2). [[Git Cheat sheet]]
 ```
 
+# Undoing Changes
+
+Case 1: staged changes
+Case 2: committed changed (for one commit)
+Case 3: committed changed (for many commit)
+
+### Case 1: staged changes
+```
+git reset <file-name>
+git reset
+```
+### Case 2: committed changed (for one commit)
+
+```
+git reset HEAD~1
+```
+### Case 3: committed changed (for many commit)
+
+```
+git reset <commit hash>
+git reset --hard <commit hash> 
+```
+`git reset --hard` also remove code from vs code. 
