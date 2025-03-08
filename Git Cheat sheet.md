@@ -4,7 +4,7 @@
 
 | **Command**                                        | **Description**                      |
 | -------------------------------------------------- | ------------------------------------ |
-| `git --version`                                    | Check installed Git version.         |
+| `git --version`                                    | Check installed Git version..        |
 | `git config --global user.name "Your Name"`        | Set global username for Git.         |
 | `git config --global user.email "you@example.com"` | Set global email for Git.            |
 | `git config --global color.ui auto`                | Enable color output in Git commands. |
