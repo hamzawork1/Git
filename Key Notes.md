@@ -62,9 +62,15 @@ Two ways
 
 ### 1st way: 
 
-git diff main
-git merge main
+`git diff main`
+`git merge main`
 
 ### 2nd way:
 
 **Pull request:** its lets you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+
+When we merge dev into main from GitHub we should also update local main branch with pull command. this command will run inside main branch.
+
+`git checkout main`
+`git pull origin main`
