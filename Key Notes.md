@@ -91,8 +91,18 @@ If you want to resolve manually then need to remove lines check below example:
 
 ```
 
+>>>>>>>>>>>>>head 
+Check definition of pull (dev1). [[Git Cheat sheet]]
+======
+Check definition of pull (dev2). [[Git Cheat sheet]]
+>>>>>>>>>>>>> main
 ```
 
-```
+unnecessary lines are removed and now you can decide which code you want.
 
 ```
+Check definition of pull (dev1). [[Git Cheat sheet]]
+
+Check definition of pull (dev2). [[Git Cheat sheet]]
+```
+
