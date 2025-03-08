@@ -4,7 +4,7 @@
 
 | **Command**                                        | **Description**                      |
 | -------------------------------------------------- | ------------------------------------ |
-| `git --version`                                    | Check installed Git version.         |
+| `git --version`                                    | Check installed Git version..        |
 | `git config --global user.name "Your Name"`        | Set global username for Git.         |
 | `git config --global user.email "you@example.com"` | Set global email for Git.            |
 | `git config --global color.ui auto`                | Enable color output in Git commands. |
@@ -14,10 +14,12 @@
 
 #### **📂 Initializing & Cloning**
 
-|**Command**|**Description**|
-|---|---|
-|`git init`|Initialize a new Git repository.|
-|`git clone <repo_url>`|Clone a remote repository locally.|
+| **Command**                        | **Description**                                                                                                                    |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `git init`                         | Initialize a new Git repository.                                                                                                   |
+| `git clone <repo_url>`             | Clone a remote repository locally.                                                                                                 |
+| `git remote add origin <repo_url>` | Set the origin of remote repository. you change name of origin instead of origin. **it helps to link local repo with remote repo** |
+| `git remote -v`                    | to verify remote repository for fetch and push                                                                                     |
 
 ---
 
@@ -35,25 +37,26 @@
 
 #### **📤 Pushing & Pulling**
 
-|**Command**|**Description**|
-|---|---|
-|`git push origin <branch>`|Push commits to a remote repository.|
-|`git push -u origin <branch>`|Push and set upstream tracking.|
-|`git pull origin <branch>`|Fetch and merge changes from remote.|
-|`git fetch`|Fetch changes without merging.|
+| **Command**                   | **Description**                                                                                            |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `git push origin <branch>`    | Push commits to a                                                                                          |
+| `git push -u origin <branch>` | Push and set upstream tracking. **if you don't want you origin in command again & again you can use `-u`** |
+| `git pull origin <branch>`    | Fetch and merge changes from remote.                                                                       |
+| `git fetch`                   | Fetch changes without merging                                                                              |
 
 ---
 
 #### **🔄 Branching & Merging**
 
-|**Command**|**Description**|
-|---|---|
-|`git branch`|List all branches.|
-|`git branch <branch-name>`|Create a new branch.|
-|`git switch <branch>`|Switch to an existing branch.|
-|`git checkout -b <branch>`|Create and switch to a new branch.|
-|`git merge <branch>`|Merge a branch into the current branch.|
-|`git rebase <branch>`|Reapply commits from one branch onto another.|
+| **Command**                | **Description**                               |
+| -------------------------- | --------------------------------------------- |
+| `git branch`               | List all branches.                            |
+| `git branch <branch-name>` | Create a new branch.                          |
+| `git branch -M <branch-name>` | Rename a branch.                          |
+| `git switch <branch>`      | Switch to an existing branch.                 |
+| `git checkout -b <branch>` | Create and switch to a new branch.            |
+| `git merge <branch>`       | Merge a branch into the current branch.       |
+| `git rebase <branch>`      | Reapply commits from one branch onto another. |
 
 ---
 
@@ -61,6 +64,7 @@
 
 |**Command**|**Description**|
 |---|---|
+|`git diff <branch>`|compare commits,branhes,files & more. "before merge"|
 |`git merge <branch>`|Attempt to merge branches.|
 |`git status`|Check which files have conflicts.|
 |`git add <file>`|Mark a conflict as resolved.|
