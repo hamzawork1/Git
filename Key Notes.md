@@ -46,3 +46,10 @@ In VS code in front of file name if shows `A` it means file Added after `git add
 ```
 readme1.md `A`
 ```
+
+# Work Flow: 
+
+### Local Git:
+ GitHub-repo -> clone -> changes -> add -> commit -> push
+### Best practice:
+**Always create a repo on GitHub first, then clone it locally.** This avoids conflicts and simplifies setup 
